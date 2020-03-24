@@ -7,6 +7,10 @@
 </head>
 <body>
     
+    <div id="app">
+        <input onkeypress="mostrarAlerta()" type="text">
+        <button onclick="mostrarAlerta()">Me pressione</button>
+    </div>
 
     <script>
     /*++++++++++++++INTRODUÇÃO AO JAVASCRIPT++++++++++++++*/
@@ -138,6 +142,15 @@
 
         // setTimeout(exibirAlgo, 10000); // exibe apos determinado tempo
 
+
+
+    /*+++++++++++++++++++++++++MANIPULANDO A DOM+++++++++++++++++++++++++*/
+
+    /*-----------Eventos inlene-----------*/
+
+        function mostrarAlerta() {
+            alert("Botão foi cricado");
+        }
 
     </script>
 </body>
