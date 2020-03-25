@@ -2,6 +2,9 @@
 
 /*-----------Eventos inlene-----------*/
 
-function mostrarAlerta() {
-    alert("Botão foi cricado");
-}
+// function mostrarAlerta() {
+//     alert("Botão foi cricado");
+// }
+
+
+
